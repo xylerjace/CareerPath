@@ -75,9 +75,7 @@ public class MainScreen {
 		
 		JLabel lblNewLabel = new JLabel("New label");
 		lblNewLabel.setFont(new Font("Times New Roman", Font.BOLD, 27));
-		//lblNewLabel.setBackground(Color.WHITE);
 		Image icon = new ImageIcon(this.getClass().getResource("/CareerPathLogo.png")).getImage();
-	//	Image scaledImage = icon.getScaledInstance(500, 500, Image.SCALE_SMOOTH);
 		lblNewLabel.setIcon(new ImageIcon(icon));
 		lblNewLabel.setBounds(404, 202, 410, 314);
 		panel.add(lblNewLabel);
